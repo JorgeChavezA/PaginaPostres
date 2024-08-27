@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownie - Postres Favoritos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a3a3a3;
+            color: #333;
+        }
+        header, nav, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            font-size: small;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        col.tipo {
+            background-color: #f3f3f3;
+        }
+        col.sabor {
+            background-color: #c7c7c7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Postres Favoritos</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="flan.html">Flan</a>
+            <a href="pay-queso.html">Pay de Queso</a>
+            <a href="brownie.html">Brownie</a>
+            <a href="pay-limon.html">Pay de Limon</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Brownie</h2>
+            <p>El brownie es un pequeño pastelillo y lleno de chocolate. Un verdadero deleite y baile de sabor para los amantes del chocolate.</p>
+            <figure>
+                <img src="https://images.pexels.com/photos/5386684/pexels-photo-5386684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Brownie casero" />
+                <figcaption>Brownie, el postre perfecto segun la gente.</figcaption>
+            </figure>
+
+            <h1>Tipos de brownie</h1>
+            <table>
+                <colgroup>
+                    <col class="tipo">
+                    <col class="tipo">
+                    <col class="sabor">
+                </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Sabor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cakey</td>
+                            <td>Es abizcochado y su textura es aireada y esponjosa. </td>
+                        </tr>
+                        <tr>
+                            <td>Chewy</td>
+                            <td>Masticable o “chicloso“, es la más habitual y la que nos suele venir a la mente cuando pensamos en brownie. Su textura es densa, húmeda y ligeramente fundente. Es el que nos suele venir a la cabeza cuando hablamos de brownie.</td>
+                        </tr>
+                        <tr>
+                            <td>Fudgy</td>
+                            <td>Fundente, el que menos harina lleva. Es muy húmedo, muy “chocolatoso” y se queda pegado a los dientes. Su textura es parecida a los caramelos toffee de chocolate.</td>
+                        </tr>
+                        <tr>
+                            <td>Blondie</td>
+                            <td>Se llaman así a los brownies hechos con chocolate blanco y que no saben a cacao, pues solo llevan la manteca de este.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <p>Existe una gran variedad de tipos aqui solo te mostramos 4</p>
+                    </tfoot>
+            </table>
+        </section>
+        <aside>
+            <h3>Consejos para un Brownie Perfecto</h3>
+            <ul>
+                <strong>
+                <li>Usa chocolate de buena calidad.</li>
+                <li>No mezcles demasiado la masa.</li>
+                <li>Deja enfriar completamente antes de cortar.</li>
+                </strong>
+            </ul>
+            <p>Segun <cite>Animal Gourmet</cite> el brownie es uno de los postres mas vendidos en el mundo</p>
+        </aside>
+        <aside><h2>Dato Curioso</h2>
+            <p>El postre mas vendido hasta el dia <time datetime="2024-08-26">26 de agosto del 2024</time> la <abbr title="UNIVERSIDAD AUTONOMA DE NUEVO LEON"></abbr>UANL es el brownie por su rico sabor y precio accesible</p>
+        </aside>
+        <p><h5>Mas recetas similares</h5></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Pyndge8jmb0" frameborder="0" allowfullscreen>
+          </iframe>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; 2024 PASTELERIALTI. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
